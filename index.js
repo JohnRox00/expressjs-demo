@@ -64,6 +64,7 @@ app.post("/api/users", (req, res) => {
   );
 });
 
+// Put Request
 app.put("/api/users", (req, res) => {
   const { id, name, email, password } = req.body;
 
